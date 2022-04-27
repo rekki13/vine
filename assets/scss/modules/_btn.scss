@@ -1,0 +1,25 @@
+/**
+ * Classes Buttons
+ *
+ * btn
+ *
+ */
+
+.btn, .button {
+  background-color:$background-pearl ;
+color: $color-white;
+
+
+
+  span {
+    position: relative;
+    top: 2px;
+  }
+
+  svg {
+    margin: 0 0 0 8px;
+  }
+
+}
+
+

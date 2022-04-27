@@ -1,0 +1,10 @@
+.background {
+  &__black {
+    background-color: $background-black;
+    color: $color-white;
+  }
+  &__pearl {
+    background-color: $background-pearl;
+    color: $color-black;
+  }
+}

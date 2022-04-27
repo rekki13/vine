@@ -1,0 +1,42 @@
+/**
+ * Breakpoints
+ */
+$breakpoints: (
+        xs: 500px,
+        sm: 767px,
+        md: 991px,
+        lg: 1200px,
+        xl: 1400px,
+);
+
+/**
+ * Body
+ */
+$font-body                      :   'Montserrat', sans-serif;
+$font-title                     :   'Playfair Display', sans-serif;
+$fontWeight-body                :   400;
+
+/**
+ * Container
+ */
+$container-padding              :   30px;
+$container-maxWidth             :   1100px;
+/**
+ * Link
+ */
+$color-link                     :   #fff;
+
+/**
+ * Background
+ */
+$background-black               :   #282828;
+$background-pearl              :   #E6E3C4;
+$background-accent              :   #998431;
+
+/**
+ * Colors
+ */
+
+$color-semiblack       :   #282828;
+$color-black       :   #000;
+$color-white       :   #fff;
