@@ -6,15 +6,13 @@ class Footer extends Component {
             <footer>
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#">Главная</a>
-                            <a href="#">Каталог</a>
-                            <a href="#">Поставщики</a>
-                            <a href="#">Коллекции</a>
-                            <a href="#">Дегустация</a>
-                            <a href="#">Коллекция 2020</a>
-                            <a href="#">Контакты</a>
-                        </li>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Поставщики</a></li>
+                        <li><a href="#">Коллекции</a></li>
+                        <li><a href="#">Дегустация</a></li>
+                        <li><a href="#">Коллекция 2020</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
             </footer>

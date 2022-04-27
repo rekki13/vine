@@ -52,6 +52,7 @@ ol > li::before {
 p {
     padding: 0;
     margin: 0 0 15px 0;
+    color: $color-white;
 }
 img{
     display: block;
@@ -69,16 +70,7 @@ img{
 
 
 }
-.wrapper {
-    flex: 1 0 auto;
-    padding: 0 0 50px 0;
 
-    @include media(sm) {
-
-        background:unset;
-        padding-bottom: unset;
-    }
-}
 header,
 footer,
 article,
@@ -172,7 +164,7 @@ h6, .h6{
 
 .container {
     $gutter: 15px;
-
+position: relative;
     margin-right: auto;
     margin-left: auto;
     padding-left: $gutter;

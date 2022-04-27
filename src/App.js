@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.scss';
 import {Home} from "./pages";
+import {Footer, Header} from "./components";
 
 function App() {
-  return (
-    <Home/>
-  );
+    return [
+        <Header/>,
+        <Home/>,
+        <Footer/>
+    ];
 }
 
 export default App;
