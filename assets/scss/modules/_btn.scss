@@ -1,0 +1,28 @@
+/**
+ * Classes Buttons
+ *
+ * btn
+ *
+ */
+
+.btn, .button {
+  background-color: $background-accent;
+  color: $color-white;
+text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  letter-spacing: 0.05em;
+
+  span {
+    position: relative;
+    top: 2px;
+  }
+
+  svg {
+    margin: 0 0 0 8px;
+  }
+
+}
+
+
