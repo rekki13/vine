@@ -30,11 +30,10 @@
  * Content
  */
 @import "layout/header";
-@import "layout/main";
 @import "layout/footer";
-@import "layout/sections/background";
+@import "layout/sections/sections";
 /**
  * Pages
  */
 @import "pages/404";
-@import "pages/home";
+@import "pages/home/index";

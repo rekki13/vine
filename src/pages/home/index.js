@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import {Hero} from "./sections";
+import {Hero, Info} from "./sections";
 
 class Home extends Component {
     render() {
-        return (
-            <Hero/>
-        );
+        return [
+            <Hero/>,
+            <Info/>
+        ];
     }
 }
 
